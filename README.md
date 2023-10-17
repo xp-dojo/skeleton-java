@@ -1,1 +1,1 @@
-# skeleton-java
+# Skeleton Java App
