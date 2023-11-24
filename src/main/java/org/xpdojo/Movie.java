@@ -1,18 +1,30 @@
 package org.xpdojo;
 
 
-public abstract class Movie {
-    private String title;
+public class Movie {
 
-    public Movie(String title) {
+    public static final int CHILDREN = 2;
+    public static final int REGULAR = 0;
+    public static final int NEW_RELEASE = 1;
+
+    private String title;
+    private int priceCode;
+
+    public Movie(String title, int priceCode) {
         this.title = title;
+        this.priceCode = priceCode;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public abstract double determineAmount(int daysRented);
+    public int getPriceCode() {
+        return priceCode;
+    }
 
-    public abstract int determineFrequentRenterPoints(int daysRented);
+    public void setPriceCode(int priceCode) {
+        this.priceCode = priceCode;
+    }
+
 }

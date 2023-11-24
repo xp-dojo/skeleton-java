@@ -1,7 +1,10 @@
 package org.xpdojo;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class Rental {
+
     private Movie movie;
     private int daysRented;
 
@@ -10,15 +13,12 @@ public class Rental {
         this.daysRented = daysRented;
     }
 
-    public String getTitle() {
-        return movie.getTitle();
+    public Movie getMovie() {
+        return movie;
     }
 
-    public double determineAmount() {
-        return movie.determineAmount(daysRented);
+    public int getDaysRented() {
+        return daysRented;
     }
 
-    public int determineFrequentRenterPoints() {
-        return movie.determineFrequentRenterPoints(daysRented);
-    }
 }

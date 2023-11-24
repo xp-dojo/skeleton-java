@@ -1,6 +1,5 @@
 package org.xpdojo;
 
-// This file is the original program.  It has been left here so you can compare it with the refactored version.
 import java.util.Vector;
 import java.util.Enumeration;
 
@@ -37,7 +36,7 @@ public class Customer {
                 case Movie.NEW_RELEASE:
                     thisAmount += each.getDaysRented() * 3;
                     break;
-                case Movie.CHILDRENS:
+                case Movie.CHILDREN:
                     thisAmount += 1.5;
                     if (each.getDaysRented() > 3)
                         thisAmount += (each.getDaysRented() - 3) * 1.5;
