@@ -9,3 +9,6 @@ This repository contains an empty Gradle (Java) project as a springboard.
 
 We'll work on fork with a skeleton application to extend / play with together. We'll ask you during the session to merge our changes then go from there!
 
+## Video Store
+
+This is the skeleton code from Uncle Bob's video store program, which in turn is based on Martin Fowlers initial chapter in the Refactoring book.
