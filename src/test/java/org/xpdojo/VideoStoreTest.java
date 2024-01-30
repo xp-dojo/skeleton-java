@@ -27,8 +27,8 @@ public class VideoStoreTest {
     }
 
     private void assertAmountAndPointsForReport(double expectedAmount, int expectedPoints) {
-//        assertEquals(expectedAmount, customer.getAmountOwed());
-//        assertEquals(expectedPoints, customer.getFrequentRenterPoints());
+        assertEquals(expectedAmount, customer.getAmountOwed());
+        assertEquals(expectedPoints, customer.getFrequentRenterPoints());
     }
 
     @Test
